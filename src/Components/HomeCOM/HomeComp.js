@@ -1,8 +1,9 @@
 import React from "react";
+import Posts from "../Post/Posts";
 
 const HomeCOM = () =>{
     return (
-        <h1>Home Componet</h1>
+        <Posts/>
     )
 }
 
