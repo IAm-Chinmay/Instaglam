@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+header{
+    background-color: #0C0C0C;
+}
+
+
+.nav-main-container{
+    display: flex;
+    color: aliceblue;
+    /* background-color: red; */
+    position: relative;
+}
+
+.nav-links ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-left: -8vh;
+}
+
+.li-css {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 18vh;
+    text-decoration: none;
+}
+
+.li-css li{
+    float: left;
+    margin-left: 25vh;
+    font-size: 25px;
+   margin-top: 1.5%;
+   float: right;
+  
+}
+
+.li-css li button{
+   all: unset;
+   cursor: pointer;
+}
+
+.logo-css{
+    margin-left: 10vh;
+    /* font-size: 15px; */
+    /* background-color: rebeccapurple; */
+}
+
+.logo-css h3{
+    font-family: 'Pacifico', cursive;
+    font-weight: 600;
+
+}
+
+@media screen and (max-width : 767px) {
+    .logo-css {
+        margin-left: 2vh;
+        font-size: 15px;
+    }
+
+    .nav-main-container {
+        display: flex;
+        color: aliceblue;
+        /* background-color: red; */
+        position: relative;
+    }
+    .nav-links ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        display: flex;
+        /* margin-left: -37vh; */
+    }
+    .li-css {
+        display: flex;
+        color: white;
+        text-align: center;
+        padding: 25px 6vh;
+        align-items: center;
+        justify-content: space-evenly;
+        text-decoration: none;
+    }
+    .li-css li {
+        /* float: right; */
+        font-size: 13px;
+        margin-top: 1.5%;
+        /* float: right; */
+        margin: 0px 21px;
+    }
+}
