@@ -1,5 +1,11 @@
 body {
   margin: 0;
   background-color: #2C2B2B ;
+  /* -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-y: scroll; */
 }
 
+/* body ::-websit-scrollbar{
+  display: none;
+} */

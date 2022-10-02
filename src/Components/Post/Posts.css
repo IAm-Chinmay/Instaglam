@@ -1,0 +1,62 @@
+.suggestUsers{
+    width: 35vh;
+    height: 65vh;
+    overflow: hidden;
+    position: fixed;
+    left: 163vh;
+    top: 26vh;
+    color: #fff;
+}
+
+.suggestUsers ul li{
+    list-style: none;
+}
+.suggestUsers li{
+    padding-top: 2vh;
+    float: left;
+}
+
+.suggestUserInfo{
+    margin: 10px 10px;
+
+}
+
+.suggestUserImg{
+    border-radius: 50%;
+    width: 130px;
+    height: 33px;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: solid rgb(106, 101, 101); */
+}
+
+
+.suggestUserImg img{
+    border-radius: 50%;
+    vertical-align: middle;
+    border: solid #fff;
+    /* margin: 0 1vh; */
+    border: solid;
+    width: 5vh;
+    height: 100%;
+    overflow: hidden;
+    float: left;
+}
+
+.suggestUserImg h4{
+    /* margin-left: -3vh; */
+    /* padding-left: 3vh; */
+    /* float: right; */
+}
+
+.main-page{
+    position: relative;
+}
+
+@media screen and (max-width: 767px ) {
+    .suggestUserImg{
+        display: none;
+    }
+}
