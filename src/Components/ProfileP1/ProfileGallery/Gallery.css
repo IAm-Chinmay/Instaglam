@@ -1,0 +1,13 @@
+.gallery-pic img{
+    width: 100%;
+    height:100%
+}
+
+.gallery-pic{
+    background-color: aliceblue;
+    width: 40vh;
+    height:40vh;
+    overflow: hidden;
+    flex: 0 1 300px;
+    margin: 5vh 1vh 2vh 1vh;
+}

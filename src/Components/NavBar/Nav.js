@@ -15,7 +15,11 @@ const Nav = () =>{
         <div className="nav-links">
         <ul>
             <div className="li-css">
-            <li><Link style={{all: 'unset'}} to={'/profile'}><button><i class="fa-sharp fa-solid fa-user"></i></button></Link></li>
+            <li><Link style={{all: 'unset'}} to={'/profile'}><button>
+                <div className="main_profile">
+                    <img src="https://images3.alphacoders.com/114/1149777.jpg" alt="profile_img" />
+                </div>
+                </button></Link></li>
             <li><Link style={{all: 'unset'}} to={'/post'}><button><i class="fa-sharp fa-solid fa-circle-plus"></i></button></Link></li>
             <li><Link style={{all: 'unset'}} to={'/'}><button><i class="fa-sharp fa-solid fa-house"></i></button></Link></li>
             </div>

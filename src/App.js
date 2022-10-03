@@ -1,6 +1,7 @@
 import HomePage from "./Main-Pages/Home/HomePage";
 import Nav from "./Components/NavBar/Nav";
-import AddPost from "./Components/AddPostItem/AddPost";
+import AddPostMain from "./Main-Pages/AddPost/AddPostMain";
+import ProfilePage from "./Components/ProfileP1/Profilep1";
 import "./App.css";
 
 import {
@@ -16,13 +17,15 @@ function App() {
       <Router>
         <Nav />
         <Switch>
+          <Route path={"/profile"}>
+            <ProfilePage/>
+          </Route>
         <Route path={"/post"}>
-            <AddPost/>
+            <AddPostMain/>
           </Route>
           <Route path={"/"}>
             <HomePage />
           </Route>
-          
         </Switch>
       </Router>
     </>

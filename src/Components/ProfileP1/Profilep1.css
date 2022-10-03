@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.main-profile-container{
+    position: relative;
+}
+
+.upperbody-profile{
+
+}
+.submain-profile-sec{
+    color: #fff;
+    /* background-color: bisque; */
+    height: 30vh;
+    width: 40vh;
+    position: absolute;
+    left: 40%;
+    top: 10vh;
+}
+
+.submain-profile-sec .main-profile-name h1{
+    font-weight: 300;
+    font-family: 'Poppins',sans-serif;
+}
+
+.submain-profile-sec .main-profile-subtitle p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.main-profile-img{
+    position: absolute;
+    top: 15vh;
+    left: 25%;
+    border-radius: 50%;
+    width: 22vh;
+    height: 21vh;
+    vertical-align: middle;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: solid rgb(106, 101, 101); */
+    background-color: blueviolet;
+}
+
+
+.main-profile-img img{
+    border-radius: 50%;
+    vertical-align: middle;
+    border: solid #fff;
+    /* margin: 0 1vh; */
+    border: solid;
+    width: 30vh;
+    height: 100%;
+    overflow: hidden;
+    float: left;
+}
+
+.lowerbody-profile{
+    /* background-color: blanchedalmond; */
+    position: absolute;
+    top: 50vh;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+}
+
+.lowerbody-profile h4{
+    font-family:  'Open Sans', sans-serif;
+    color: #fff;
+}
+
+.user-images-gallery{
+    /* background-color: crimson; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}

@@ -53,8 +53,30 @@ header{
 .logo-css h3{
     font-family: 'Pacifico', cursive;
     font-weight: 600;
-
 }
+
+.main_profile{
+    border-radius: 50%;
+    width: 120px;
+    height: 28px;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main_profile img{
+    border-radius: 50%;
+    vertical-align: middle;
+    border: solid #fff;
+    /* margin: 0 1vh; */
+    border: solid;
+    width: 4vh;
+    height: 100%;
+    overflow: hidden;
+    float: left;
+}
+
 
 @media screen and (max-width : 767px) {
     .logo-css {
@@ -91,5 +113,27 @@ header{
         margin-top: 1.5%;
         /* float: right; */
         margin: 0px 21px;
+    }
+
+    .main_profile{
+        border-radius: 50%;
+        width: 40px;
+        height: 28px;
+        vertical-align: middle;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .main_profile img{
+        border-radius: 50%;
+        vertical-align: middle;
+        border: solid #fff;
+        /* margin: 0 1vh; */
+        border: solid;
+        /* width: 4vh; */
+        /* height: 100%; */
+        overflow: hidden;
+        float: left;
     }
 }
