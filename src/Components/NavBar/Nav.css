@@ -79,6 +79,10 @@ header{
 
 
 @media screen and (max-width : 767px) {
+
+    header{
+        /* overflow: hidden; */
+    }
     .logo-css {
         margin-left: 2vh;
         font-size: 15px;
